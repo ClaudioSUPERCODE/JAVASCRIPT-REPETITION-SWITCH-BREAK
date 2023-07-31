@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*------BUNDESLAND APP------*/
+
+.style {
+    margin: auto;
+    width: 220px;
+    padding: 20px;
+    background-color:crimson;
+    font-family: Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+button {
+    background: #333;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+input {
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+/*---------DHL APP----------*/
+
+:root {
+	--dhl-red: #D40511;
+	--dhl-yellow: #FFCC00;
+}
+
+.dhl {
+	display: flex;
+	color: var(--dhl-red);
+	background-color: var(--dhl-yellow);
+	height: 200px;
+	width: 500px;
+    margin: auto;
+}
+
+.boxMasse {
+	margin: 5px;
+	width: 350px;
+	border:2px solid var(--dhl-red);;
+	border-radius: 5px;
+	padding: 10px
+}
+
+.dhlButton {
+	border: 2px solid var(--dhl-red);;
+	color: #fff;
+	background-color: var(--dhl-red);;
+	margin: 5px;
+	display: inline-flex;
+	align-items: center;
+	padding: .5rem 3.8rem;
+	border: 2px solid #d1d1d1;
+	border-radius: 0;
+	cursor: pointer;
+	outline: 0;
+	font-weight: 500;
+	white-space: normal;
+	transition: color 200ms,background-color 200ms,border-color 200ms;
+}
+.dhlButton:hover {
+	color: var(--dhl-red);;
+	background-color: #fff;
+	outline: 0;
+	border-color: var(--dhl-red);;
+}
